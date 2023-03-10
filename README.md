@@ -1,17 +1,15 @@
 # Spam Classification
-
-## Table of Contents
-[About](#about) <br>
-[Dataset](#data) <br>
-[Data Preprocessing](#preprocess) <br>
-[Modelling](#model) <br>
-[Model Evaluation](#eval) <br>
-[Dependencies](#dependencies) <br>
-
 <a name="about"></a>
 ## About
-A project to classify emails as spam or not-spam based on their contents. Using the UCI Machine Learning Repository's Spambase dataset.
-Dataset is available at https://archive.ics.uci.edu/ml/datasets/Spambase
+A project to classify emails as spam or not-spam based on their contents. Using different machine learning algorithms, applied on the UCI Machine Learning Repository's Spambase dataset.
+
+## Table of Contents
+1. [About](#about) <br>
+2. [Dataset](#data) <br>
+3. [Data Preprocessing](#preprocess) <br>
+4. [Modelling](#model) <br>
+5. [Model Evaluation](#eval) <br>
+6. [Dependencies](#dependencies) <br>
 
 <a name="data"></a>
 ## Dataset

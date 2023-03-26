@@ -34,6 +34,25 @@ The 2 machine learning models used for this project were K Nearest Neighbors (KN
 
 <a name="eval"></a>
 ## Model Evaluation
+### KNN
+|     | precision   |   recall |   f1-score |   support |
+|---: |:-----------:|:--------:|:----------:|:---------:|
+|  0  |        0.93 |     0.93 |       0.93 |       604 |
+|  1  |        0.94 |     0.94 |       0.94 |       662 |
+|     |             |          |            |           |
+|accuracy|          |          |       0.93 |      1266 |
+|macro avg|    0.93 |     0.93 |       0.93 |      1266 |
+|weighted avg| 0.93 |     0.93 |       0.93 |      1266 |
+
+### DT
+|     | precision   |   recall |   f1-score |   support |
+|---: |:-----------:|:--------:|:----------:|:---------:|
+|  0  |        0.88 |     0.95 |       0.92 |       604 |
+|  1  |        0.95 |     0.88 |       0.92 |       662 |
+|     |             |          |            |           |
+|accuracy|          |          |       0.92 |      1266 |
+|macro avg|    0.92 |     0.92 |       0.92 |      1266 |
+|weighted avg| 0.92 |     0.92 |       0.92 |      1266 |
 
 <a name="dependencies"></a>
 ## Dependencies
@@ -47,3 +66,4 @@ The following libraries were used in the project:
 
 <a name="results"></a>
 ## Results
+While the Decision Tree model did outperform the KNN model in some metrics, such as recall of non-spam and precision of spam. Overall the KNN model proved to have the better overall performance when it came to the evaluation.
